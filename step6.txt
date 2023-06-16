@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+   <meta http-equiv="content type" content+"texthtml; charset=UTF-8">
+
+   <title>Lucky Draw<title>
+
+   <style>
+
+     #lucky-number {font-size: 1200%; color: #CC0000;}
+
+     body { text-align: center; }
+
+   </style>
+
+ </head>
+
+ <body>
+
+   <h1>Lucky Draw</h1>
+
+   <hr>
+
+   <div id="lucky-number">?</div>
+
+   <hr>
+
+   <button onclick="play()">PLAY</button>
+
+   <script type="textjavascript">
+
+     function play() {luckyNumber = document.getElementById("lucky-    number"); luckyNumber.innerHTML = Math.floor(Math.random() * 100 + 1);}
+
+   </script>
+
+ </body>
+
+</html>
